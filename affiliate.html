@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affiliate-Links – Finanzen Privat</title>
+  <link rel="icon" type="image/svg+xml" href="Logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo-wrap">
+      <a href="https://www.youtube.com/@finanzenprivat" target="_blank" rel="noopener noreferrer">
+        <img class="nav-logo" src="Logo.svg" alt="Finanzen Privat Logo">
+      </a>
+    </div>
+    <div class="nav-brand-center">
+      <span class="nav-brand-name">Finanzen Privat</span>
+      <span class="nav-brand-tagline">
+        Finanzen <span class="sep">|</span> Vermögen <span class="sep">|</span> Freiheit
+      </span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="affiliate.html" class="active">Affiliate</a></li>
+      <li><a href="datenschutz.html">Datenschutz</a></li>
+      <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="content-card">
+
+    <div class="page-header">
+      <div class="label">Empfehlungen</div>
+      <h1>Affiliate-Links</h1>
+      <p>Produkte und Plattformen, die ich selbst nutze oder empfehle.</p>
+    </div>
+
+    <!-- Transparenzhinweis -->
+    <div class="affiliate-intro">
+      <strong style="color: var(--text);">Transparenzhinweis:</strong> Diese Seite enthält Affiliate-Links. Wenn du über einen dieser Links ein Konto eröffnest oder ein Produkt kaufst, erhalte ich eine Provision – für dich entstehen dabei <strong style="color: var(--text);">keine Mehrkosten</strong>. Ich empfehle ausschließlich Anbieter, mit denen ich persönliche Erfahrungen gesammelt habe.
+    </div>
+
+    <!-- Kategorie-Tabs -->
+    <div class="category-tabs" role="tablist" aria-label="Kategorien">
+      <button class="cat-btn active" onclick="showCat('broker')" role="tab" aria-selected="true" aria-controls="cat-broker">
+        <span class="cat-icon">📈</span> Broker &amp; Depots
+      </button>
+      <button class="cat-btn" onclick="showCat('tagesgeld')" role="tab" aria-selected="false" aria-controls="cat-tagesgeld">
+        <span class="cat-icon">🏦</span> Tagesgeld &amp; Geldmarkt
+      </button>
+      <button class="cat-btn" onclick="showCat('krypto')" role="tab" aria-selected="false" aria-controls="cat-krypto">
+        <span class="cat-icon">₿</span> Krypto
+      </button>
+    </div>
+
+    <!-- Panel: Broker & Depots -->
+    <div class="cat-panel active" id="cat-broker" role="tabpanel">
+      <div class="broker-grid">
+
+        <div class="broker-card">
+          <div class="broker-header">
+            <div class="broker-icon">📈</div>
+            <div class="broker-meta">
+              <div class="broker-name">Trade Republic</div>
+              <div class="broker-type">Neobroker · Depot</div>
+            </div>
+            <span class="broker-badge">Empfohlen</span>
+          </div>
+          <p class="broker-desc">Einer der beliebtesten Neobroker in Deutschland. Aktien, ETFs und Kryptowährungen ab 1 € handeln. Einfache Benutzeroberfläche, günstige Kosten und attraktive Zinsen auf das Verrechnungskonto.</p>
+          <div class="broker-tags">
+            <span class="tag">Ab 1 € investieren</span>
+            <span class="tag">ETF-Sparplan</span>
+            <span class="tag">Zinsen auf Cash</span>
+            <span class="tag">App-basiert</span>
+          </div>
+          <a class="broker-cta" href="DEIN_AFFILIATE_LINK_HIER" target="_blank" rel="noopener sponsored">
+            Jetzt Depot eröffnen
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+
+        <div class="broker-card">
+          <div class="broker-header">
+            <div class="broker-icon">🟢</div>
+            <div class="broker-meta">
+              <div class="broker-name">Scalable Capital</div>
+              <div class="broker-type">Neobroker · Robo-Advisor</div>
+            </div>
+          </div>
+          <p class="broker-desc">Flexibler Broker mit kostenlosem Basis-Depot sowie einem Prime-Abo für Flatrate-Trading. Zusätzlich als Robo-Advisor für automatisiertes, regelbasiertes Investieren nutzbar.</p>
+          <div class="broker-tags">
+            <span class="tag">Flatrate-Trading</span>
+            <span class="tag">Robo-Advisor</span>
+            <span class="tag">ETF-Sparplan</span>
+            <span class="tag">Kostenloses Depot</span>
+          </div>
+          <a class="broker-cta" href="DEIN_AFFILIATE_LINK_HIER" target="_blank" rel="noopener sponsored">
+            Jetzt Depot eröffnen
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+
+        <div class="broker-card">
+          <div class="broker-header">
+            <div class="broker-icon">🔵</div>
+            <div class="broker-meta">
+              <div class="broker-name">ING Depot</div>
+              <div class="broker-type">Direktbank · Depot</div>
+            </div>
+          </div>
+          <p class="broker-desc">Das klassische Online-Depot einer etablierten Direktbank. Besonders geeignet für Einsteiger, die Wert auf ein vertrauenswürdiges, deutsches Institut legen. Solide ETF-Sparplan-Auswahl.</p>
+          <div class="broker-tags">
+            <span class="tag">Direktbank</span>
+            <span class="tag">ETF-Sparplan</span>
+            <span class="tag">Kostenloses Depot</span>
+            <span class="tag">SEPA-freundlich</span>
+          </div>
+          <a class="broker-cta" href="DEIN_AFFILIATE_LINK_HIER" target="_blank" rel="noopener sponsored">
+            Jetzt Depot eröffnen
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Panel: Tagesgeld & Geldmarkt -->
+    <div class="cat-panel" id="cat-tagesgeld" role="tabpanel">
+      <div class="broker-grid">
+
+        <div class="broker-card">
+          <div class="broker-header">
+            <div class="broker-icon">🏦</div>
+            <div class="broker-meta">
+              <div class="broker-name">Weltsparen / Raisin</div>
+              <div class="broker-type">Zinsplattform · Tagesgeld</div>
+            </div>
+            <span class="broker-badge">Top-Zinsen</span>
+          </div>
+          <p class="broker-desc">Vergleichsplattform für Tages- und Festgeldkonten aus ganz Europa. Einfach ein Konto anlegen und zwischen verschiedenen Banken mit attraktiven Zinssätzen wählen – ohne jedes Mal eine neue Bankverbindung zu eröffnen.</p>
+          <div class="broker-tags">
+            <span class="tag">Tagesgeld</span>
+            <span class="tag">Festgeld</span>
+            <span class="tag">EU-Einlagensicherung</span>
+            <span class="tag">Kostenlos</span>
+          </div>
+          <a class="broker-cta" href="DEIN_AFFILIATE_LINK_HIER" target="_blank" rel="noopener sponsored">
+            Jetzt Zinsen sichern
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+
+        <div class="broker-card">
+          <div class="broker-header">
+            <div class="broker-icon">💳</div>
+            <div class="broker-meta">
+              <div class="broker-name">C24 Bank</div>
+              <div class="broker-type">Direktbank · Girokonto</div>
+            </div>
+          </div>
+          <p class="broker-desc">Modernes Girokonto mit attraktivem Tagesgeld-Zinssatz auf dem Smart-Konto. Keine Kontoführungsgebühren und ein übersichtliches App-Interface für den Alltag.</p>
+          <div class="broker-tags">
+            <span class="tag">Kostenloses Konto</span>
+            <span class="tag">Tagesgeld-Zinsen</span>
+            <span class="tag">App-first</span>
+          </div>
+          <a class="broker-cta" href="DEIN_AFFILIATE_LINK_HIER" target="_blank" rel="noopener sponsored">
+            Jetzt Konto eröffnen
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Panel: Krypto -->
+    <div class="cat-panel" id="cat-krypto" role="tabpanel">
+      <div class="broker-grid">
+
+        <div class="broker-card">
+          <div class="broker-header">
+            <div class="broker-icon">₿</div>
+            <div class="broker-meta">
+              <div class="broker-name">Bitpanda</div>
+              <div class="broker-type">Krypto-Plattform · Broker</div>
+            </div>
+          </div>
+          <p class="broker-desc">Europäische Plattform für Kryptowährungen, Edelmetalle und ETFs. Reguliert und in Wien ansässig. Gut geeignet für Einsteiger, die eine einfache Oberfläche und Euro-Einzahlungen per SEPA bevorzugen.</p>
+          <div class="broker-tags">
+            <span class="tag">Bitcoin &amp; Co.</span>
+            <span class="tag">Edelmetalle</span>
+            <span class="tag">EU-reguliert</span>
+            <span class="tag">Sparplan möglich</span>
+          </div>
+          <a class="broker-cta" href="DEIN_AFFILIATE_LINK_HIER" target="_blank" rel="noopener sponsored">
+            Jetzt registrieren
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>Risikohinweis &amp; Haftungsausschluss:</strong> Alle auf dieser Seite verlinkten Angebote dienen nur zu Informationszwecken und stellen keine Anlageberatung dar. Investitionen in Wertpapiere und Kryptowährungen sind mit erheblichen Risiken verbunden und können zum Totalverlust führen. Vergangene Renditen sind kein Indikator für zukünftige Ergebnisse. Die Nutzung der verlinkten Angebote erfolgt auf eigene Verantwortung. Weitere Informationen finden sich in der <a href="datenschutz.html">Datenschutzerklärung</a> und im <a href="impressum.html">Impressum</a>.
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  © 2026 Finanzen Privat  · 
+  <a href="affiliate.html">Affiliate</a>  · 
+  <a href="datenschutz.html">Datenschutz</a>  · 
+  <a href="impressum.html">Impressum</a>
+</footer>
+
+<script>
+  function showCat(id) {
+    document.querySelectorAll('.cat-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('cat-' + id).classList.add('active');
+    document.querySelectorAll('.cat-btn').forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+    });
+    const activeBtn = document.querySelector('[aria-controls="cat-' + id + '"]');
+    activeBtn.classList.add('active');
+    activeBtn.setAttribute('aria-selected', 'true');
+  }
+</script>
+</body>
+</html>
